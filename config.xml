@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "me.sensy.pontome"
+        versionCode="1"
+        version   = "1.0.0">
+
+    <name>ponto.me</name>
+    <description>
+        Let access the great app "ponto.me"
+    </description>
+
+    <author href="http://sensy.me" email="contact@sensy.me">
+        Sensy Software
+    </author>
+
+    <preference name="phonegap-version" value="2.7.0" />
+    <preference name="fullscreen" value="true" />
+    <preference name="exit-on-suspend" value="true" />
+    <preference name="orientation" value="portrait" />
+    <preference name="android-installLocation" value="auto" />
+
+    <feature name="http://api.phonegap.com/1.0/network"/>
+
+    <icon src="res/icon/high.png" />
+
+    <access origin="*" />
+
+</widget>
